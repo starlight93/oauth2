@@ -1,0 +1,36 @@
+{
+    "name": "starlight93/oauth2",
+    "description": "A copy of Laravel Passport for Lumen >=8.0 and PHP >=8.0 by Nomadnt",
+    "homepage": "https://fajarfirmansyah.com",
+    "keywords": [
+        "laravel",
+        "laravel lumen support",
+        "lumen packages",
+        "laravel packages",
+        "lumen support",
+        "oauth2",
+        "laravel package support"
+      ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Filippo Sallemi",
+            "email": "fsallemi@nomadnt.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/passport": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Starlight93\\Oauth2\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}

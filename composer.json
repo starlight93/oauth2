@@ -1,6 +1,6 @@
 {
     "name": "starlight93/oauth2",
-    "description": "A copy of Laravel Passport for Lumen >=8.0 and PHP >=8.0 by Nomadnt",
+    "description": "Laravel Passport for Lumen >=8.0 and PHP >=8.0",
     "homepage": "https://fajarfirmansyah.com",
     "keywords": [
         "laravel",
@@ -10,7 +10,7 @@
         "lumen support",
         "oauth2",
         "laravel package support"
-      ],
+    ],
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -23,7 +23,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/passport": "^10.1"
+        "laravel/passport": "^10.3"
     },
     "autoload": {
         "psr-4": {

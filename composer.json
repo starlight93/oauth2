@@ -23,7 +23,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/passport": "^10.3"
+        "laravel/passport": "^11.1"
     },
     "autoload": {
         "psr-4": {
